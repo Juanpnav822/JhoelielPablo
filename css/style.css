@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width: 100%;
+    margin-top: 0;
+    padding: 1.5em 0em 1.5em 0em;
+    z-index: 100;
+    background-color:red;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 2em;
+}
+li{
+    margin-left: 0.5em;
+}
+a{
+    transition: 1s;
+    font-weight: 0;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+section.welcome-section{
+    width: 100%;
+    text-align: center;
+    padding: 20% 0% 25% 0%;
+    background-color: rgb(172, 172, 172);
+}
+h1{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    color: white;
+}
