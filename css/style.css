@@ -8,8 +8,16 @@ header{
     margin-top: 0;
     padding: 1.5em 0em 1.5em 0em;
     z-index: 100;
-    background-color:red;
+    background-color:rgb(255, 0, 0);
     
+}
+footer{
+    width: 100%;
+    margin-bottom: 0;
+    //padding: 1.5em 0em 1.5em 0em;
+    //z-index: 100;
+    background-color:black;
+    color: white;
 }
 ul{
     display: flex;
@@ -26,7 +34,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:red;
+    color:rgb(0, 0, 0);
 }
 section.welcome-section{
     width: 100%;
@@ -40,5 +48,15 @@ h1{
 
 h3{
     font-size: 2em;
-    color: white;
+    color: rgb(191, 243, 1);
 }
+p{
+    font-size:medium  ;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+section#contact h3{
+    font-size:medium ;
+}
+section#contact h1{
+    font-size:medium ;
