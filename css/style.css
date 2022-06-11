@@ -14,8 +14,8 @@ header{
 footer{
     width: 100%;
     margin-bottom: 0;
-    //padding: 1.5em 0em 1.5em 0em;
-    //z-index: 100;
+    padding: 1.5em 0em 1.5em 0em;
+    z-index: 100;
     background-color:black;
     color: white;
 }
@@ -28,10 +28,10 @@ li{
     margin-left: 0.5em;
 }
 a{
-    transition: 1s;
     font-weight: 0;
     color: white;
     text-decoration: none;
+    transition: 1s;
 }
 a:hover{
     color:rgb(0, 0, 0);
@@ -60,3 +60,36 @@ section#contact h3{
 }
 section#contact h1{
     font-size:medium ;
+}
+section#contact {
+    background-color: rgb(190, 190, 190);
+}
+section#portofolio .flex{
+    padding: 10em 0 20em 0;
+    display: flex;
+    margin: 0 10em 0 10em;
+}
+section#portofolio h3{
+    margin: 0.5em 0 0.5em 0;
+}
+section#portofolio h2{
+    margin: 5em 0em 0em 2em;
+    font-size: 3em;
+}
+section#portofolio div{
+    margin: 0em 3em 0em 3em;
+}
+
+section#contact{
+    padding: 5em 5em 15em 5em;
+}
+section#contact h2{
+    margin: 2em 0 2em 0;
+}
+section#contact h3{
+    margin: 1em 2em 1em 2em;
+    display: flex;
+}
+section#contact div{
+    display: flex;
+}
